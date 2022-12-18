@@ -28,13 +28,15 @@ const (
 	JuniperJunos = "juniper_junos"
 	// NokiaSrl is a constant representing the platform string/name for Nokia SRL/SRLinux devices.
 	NokiaSrl = "nokia_srl"
+	// BroadcomSonic is a constant representing the platform string/name for Broadcom Sonic devices.
+	BroadcomSonic = "broadcom_sonic"
 )
 
 // GetPlatformNames is used to get the "core" (as in embedded in assets and used in testing)
 // platform names.
 func GetPlatformNames() []string {
 	return []string{
-		AristaEos, CiscoIosxe, CiscoIosxr, CiscoNxos, JuniperJunos, NokiaSrl,
+		AristaEos, CiscoIosxe, CiscoIosxr, CiscoNxos, JuniperJunos, NokiaSrl, BroadcomSonic,
 	}
 }
 
