@@ -1,4 +1,4 @@
-module github.com/scrapli/scrapligo
+module github.com/fire-ant/scrapligo
 
 go 1.16
 
