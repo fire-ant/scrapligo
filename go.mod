@@ -1,4 +1,4 @@
-module github.com/fire-ant/scrapligo
+module github.com/scrapli/scrapligo
 
 go 1.16
 
@@ -9,3 +9,5 @@ require (
 	golang.org/x/crypto v0.1.0
 	gopkg.in/yaml.v3 v3.0.1
 )
+
+replace github.com/scrapli/scrapligo => github.com/fire-ant/scrapligo Newplat/broadcom_sonic
